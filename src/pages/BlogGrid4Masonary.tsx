@@ -11,7 +11,7 @@ const BlogGrid4Masonary = () => {
   return (
     <div className="page-content bg-white">
       <CommonBanner
-        img={IMAGES.images_bnr5}
+        img={IMAGES.banner_bnr1}
         title="Blog Grid 4 Masonry"
         subtitle="Blog Grid 4 Masonry"
       />

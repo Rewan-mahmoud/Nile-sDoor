@@ -8,7 +8,7 @@ const BlogGridRightSidebar = () => {
   return (
     <div className="page-content bg-white">
       <CommonBanner
-        img={IMAGES.images_bnr3}
+        img={IMAGES.banner_bnr1}
         title="Blog Grid Right Sidebar"
         subtitle="Blog Grid Right Sidebar"
       />

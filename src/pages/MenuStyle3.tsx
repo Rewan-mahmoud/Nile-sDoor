@@ -56,7 +56,7 @@ const MenuStyle3 = () => {
     <>
       <div className="page-content bg-white">
         <CommonBanner
-          img={IMAGES.images_bnr3}
+          img={IMAGES.banner_bnr1}
           title="Our Menu 3"
           subtitle="Our Menu 3"
         />

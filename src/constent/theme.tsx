@@ -14,10 +14,10 @@ import main_slide_thumb_pic3 from "../assets/images/main-slider/slider1/thumb/pi
 import background_pic2 from "../assets/images/background/pic2.png";
 import background_pic3 from "../assets/images/background/pic3.png";
 import background_pic4 from "../assets/images/background/pic4.png";
-import gallery_small_pic1 from "../assets/images/gallery/small/pic1.jpg";
-import gallery_small_pic2 from "../assets/images/gallery/small/pic2.jpg";
-import gallery_small_pic3 from "../assets/images/gallery/small/pic3.jpg";
-import gallery_small_pic4 from "../assets/images/gallery/small/pic4.jpg";
+import gallery_small_pic1 from "../assets/images/gallery/small/pizza.jpg";
+import gallery_small_pic2 from "../assets/images/gallery/small/rise.jpg";
+import gallery_small_pic3 from "../assets/images/gallery/small/salad.jpg";
+import gallery_small_pic4 from "../assets/images/gallery/small/pasta.jpg";
 import gallery_small_pic5 from "../assets/images/gallery/small/pic5.jpg";
 import gallery_small_pic6 from "../assets/images/gallery/small/pic6.jpg";
 import gallery_small_pic7 from "../assets/images/gallery/small/pic7.jpg";
@@ -27,11 +27,11 @@ import gallery_small_pic10 from "../assets/images/gallery/small/pic10.jpg";
 import gallery_small_pic11 from "../assets/images/gallery/small/pic11.jpg";
 import gallery_small_pic12 from "../assets/images/gallery/small/pic12.jpg";
 import gallery_grid_pic1 from "../assets/images/gallery/grid/pic1.jpg";
-import gallery_grid_pic2 from "../assets/images/gallery/grid2/pic2.jpg";
+import gallery_grid_pic2 from "../assets/images/gallery/grid2/pasta.jpg";
 import gallery_grid_pic3 from "../assets/images/gallery/grid2/pic3.jpg";
-import gallery_grid_pic4 from "../assets/images/gallery/grid2/pic4.jpg";
-import gallery_grid_pic5 from "../assets/images/gallery/grid2/pic5.jpg";
-import gallery_grid_pic6 from "../assets/images/gallery/grid2/pic6.jpg";
+import gallery_grid_pic4 from "../assets/images/gallery/grid2/dall.jpg";
+import gallery_grid_pic5 from "../assets/images/gallery/grid2/shake.jpg";
+import gallery_grid_pic6 from "../assets/images/gallery/grid2/Pizza.jpg";
 import gellry_grid2_pic1 from "../assets/images/gallery/grid2/pic1.jpg";
 import gellry_grid2_pic2 from "../assets/images/gallery/grid2/pic2.jpg";
 import gellry_grid2_pic3 from "../assets/images/gallery/grid2/pic3.jpg";
@@ -128,7 +128,7 @@ import images_gallery_grid4_pic5 from "../assets/images/gallery/grid4/pic5.jpg";
 import images_gallery_grid4_pic6 from "../assets/images/gallery/grid4/pic6.jpg";
 import images_background_pic13 from "../assets/images/background/pic13.png";
 import background_pic11 from "../assets/images/background/pic11.jpg";
-import banner_bnr1 from "../assets/images/banner/bnr1.jpg";
+import banner_bnr1 from "../assets/images/background/pic1.png";
 import banner_bnr2 from "../assets/images/banner/bnr2.jpg";
 import faq_pic1 from "../assets/images/faq/pic1.png";
 import images_bnr4 from "../assets/images/banner/bnr4.jpg";
@@ -218,6 +218,7 @@ import switcher_large_pt4 from "../assets/images/switcher/large/pattern/pt4.jpg"
 import switcher_large_pt5 from "../assets/images/switcher/large/pattern/pt5.jpg";
 import switcher_large_pt6 from "../assets/images/switcher/large/pattern/pt6.jpg";
 import switcher_large_pt7 from "../assets/images/switcher/large/pattern/pt7.jpg";
+import pizza from "../assets/images/pic1-vXqlO4BN.jpg";
 
 export const IMAGES = {
   logo: logo,

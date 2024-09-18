@@ -6,7 +6,7 @@ const ServiceDetail = () => {
   return (
     <div className="page-content bg-white">
       <CommonBanner
-        img={IMAGES.banner_bnr2}
+        img={IMAGES.banner_bnr1}
         title="Services Detail"
         subtitle="Services Detail"
       />

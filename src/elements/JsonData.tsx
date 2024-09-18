@@ -78,7 +78,7 @@ export const HomeImageBoxArr = [
     price: "$45.00",
     name: "Dal Fry",
     img: IMAGES.gallery_grid_pic4,
-    img2: IMAGES.gallery_grid_pic3,
+    img2: IMAGES.gallery_grid_pic1,
     icon: "flaticon-coffee-cup",
     title: "Cafe",
   },
@@ -93,11 +93,11 @@ export const HomeImageBoxArr = [
 ];
 
 export const MenuSliderArr = [
-  { img: IMAGES.gellry_grid2_pic1, name: "Burger", price: "$20.00" },
-  { img: IMAGES.gellry_grid2_pic2, name: "Pasta", price: "$10.00" },
-  { img: IMAGES.gellry_grid2_pic3, name: "Tandoor", price: "$15.00" },
-  { img: IMAGES.gellry_grid2_pic4, name: "Dal Fry", price: "$65.00" },
-  { img: IMAGES.gellry_grid2_pic1, name: "Burger", price: "$20.00" },
+  { img: IMAGES.gallery_grid_pic5, name: "Burger", price: "$20.00" },
+  { img: IMAGES.gallery_grid_pic2, name: "Pasta", price: "$10.00" },
+  { img: IMAGES.gallery_grid_pic6, name: "Tandoor", price: "$15.00" },
+  { img: IMAGES.gallery_grid_pic4, name: "Dal Fry", price: "$65.00" },
+  { img: IMAGES.gallery_grid_pic4, name: "Burger", price: "$20.00" },
 ];
 
 export const TestymonialArr = [

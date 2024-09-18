@@ -8,7 +8,7 @@ const BlogListRightSidebar = () => {
   return (
     <div className="page-content bg-white">
       <CommonBanner
-        img={IMAGES.images_bnr3}
+        img={IMAGES.banner_bnr1}
         title="Blog List Right Sidebar"
         subtitle="Blog List Right Sidebar"
       />

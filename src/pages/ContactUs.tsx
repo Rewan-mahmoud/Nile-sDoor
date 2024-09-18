@@ -30,17 +30,17 @@ const ContactUs = () => {
                       <i className={icon}></i>
                     </div>
                   </div>
-                  <div className="icon-content">
-                    <h5 className="title">{title}</h5>
+                  <div className="icon-content ">
+                    <h5 className="title text-center">{title}</h5>
                     {text}
-                    <div className="effect bg-primary"></div>
+                    <div className="effect  bg-primary"></div>
                   </div>
                 </div>
               </div>
             ))}
           </div>
-          <div className="section-head text-center">
-            <h2 className="title">Reservation</h2>
+          <div className="section-head ">
+            <h2 className="title text-center">Reservation</h2>
           </div>
           <form className="dzForm dezPlaceAni" method="POST">
             <div className="dzFormMsg"></div>
@@ -50,7 +50,7 @@ const ContactUs = () => {
               name="dzToDo"
               value="Contact"
             />
-            <div className="row">
+            <div className="row text-">
               <div className="col-lg-6 col-md-6 m-b30 m-sm-b50">
                 <label className="form-label text-primary">Your Name</label>
                 <div className="input-group input-line input-black">

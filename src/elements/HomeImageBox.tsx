@@ -52,7 +52,7 @@ const HomeImageBox = () => {
         </div>
       </div>
       <div className="section-head text-center">
-        <h2 className="title wow flipInX">Quality Services</h2>
+        <h2 className="title wow text-center flipInX">Quality Services</h2>
       </div>
 
       <div className="icon-wrapper1">

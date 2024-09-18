@@ -33,17 +33,12 @@ const MenuSlider = () => {
               <span className="dz-tag">TOP SELLER</span>
               <div className="dz-content">
                 <div className="dz-info">
-                  <h5 className="dz-title mb-0">
+                  <h5 className="dz-title text-center mb-0">
                     <Link to="/our-menu-1">{name}</Link>
                   </h5>
                   <span className="dz-price">{price}</span>
                 </div>
-                <Link
-                  to="/shop-cart"
-                  className="btn btn-cart btn-white text-primary btn-square"
-                >
-                  <i className="flaticon-shopping-cart"></i>
-                </Link>
+          
               </div>
             </div>
           </SwiperSlide>

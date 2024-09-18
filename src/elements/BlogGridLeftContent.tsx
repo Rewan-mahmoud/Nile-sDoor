@@ -80,7 +80,7 @@ const BlogGridLeftContent = () => {
             <div className="dz-media">
               <img src={IMAGES.recent_blog_pic1} alt="/" />
             </div>
-            <div className="dz-info">
+            <div className="dz-info me-3">
               <h6 className="title">
                 <Link to="/blog-standard">Explore the Food Taste</Link>
               </h6>
@@ -88,13 +88,13 @@ const BlogGridLeftContent = () => {
                 <ul>
                   <li>
                     <Link to={"#"}>
-                      <i className="flaticon-calendar-date"></i>
+                      <i className="flaticon-calendar-date  ms-3"></i>
                       10 Dec, 2023
                     </Link>
                   </li>
                   <li>
                     <Link to={"#"}>
-                      <i className="flaticon-chat-bubble"></i>
+                      <i className="flaticon-chat-bubble ms-3"></i>
                       2.5K
                     </Link>
                   </li>
@@ -106,7 +106,7 @@ const BlogGridLeftContent = () => {
             <div className="dz-media">
               <img src={IMAGES.recent_blog_pic2} alt="/" />
             </div>
-            <div className="dz-info">
+            <div className="dz-info me-3">
               <h6 className="title">
                 <Link to="/blog-standard">Secrets of Delicious Food</Link>
               </h6>
@@ -114,13 +114,13 @@ const BlogGridLeftContent = () => {
                 <ul>
                   <li>
                     <Link to={"#"}>
-                      <i className="flaticon-calendar-date"></i>
+                      <i className="flaticon-calendar-date  ms-3"></i>
                       16 May, 2023
                     </Link>
                   </li>
                   <li>
                     <Link to={"#"}>
-                      <i className="flaticon-chat-bubble"></i>
+                      <i className="flaticon-chat-bubble  ms-3"></i>
                       1.5K
                     </Link>
                   </li>
@@ -132,7 +132,7 @@ const BlogGridLeftContent = () => {
             <div className="dz-media">
               <img src={IMAGES.recent_blog_pic3} alt="/" />
             </div>
-            <div className="dz-info">
+            <div className="dz-info me-3">
               <h6 className="title">
                 <Link to="/blog-standard"> Inspiration for Food</Link>
               </h6>
@@ -140,13 +140,13 @@ const BlogGridLeftContent = () => {
                 <ul>
                   <li>
                     <Link to={"#"}>
-                      <i className="flaticon-calendar-date"></i>
+                      <i className="flaticon-calendar-date  ms-3"></i>
                       20 Jan, 2023
                     </Link>
                   </li>
                   <li>
                     <Link to={"#"}>
-                      <i className="flaticon-chat-bubble"></i>
+                      <i className="flaticon-chat-bubble  ms-3"></i>
                       3.5K
                     </Link>
                   </li>

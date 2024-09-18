@@ -9,7 +9,7 @@ const BlogWideListSidebar = () => {
   return (
     <div className="page-content bg-white">
       <CommonBanner
-        img={IMAGES.images_bnr5}
+        img={IMAGES.banner_bnr1}
         title="Blog Wide List Sidebar"
         subtitle="Blog Wide List Sidebar"
       />

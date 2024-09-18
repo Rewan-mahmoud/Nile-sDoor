@@ -41,7 +41,7 @@ const Home3Box = () => {
                     <img src={IMAGES.images_adv_pic3} alt="/" />
                   </div>
                   <div className="adv-content">
-                    <span className="special text-white">TODAY SPECIAL</span>
+                    <span className=" text-white">TODAY SPECIAL</span>
                     <h4 className="title text-white">Nodels</h4>
                     <span className="price">60% OFF</span>
                     <Link to="/shop-cart" className="btn btn-white btn-hover-3">

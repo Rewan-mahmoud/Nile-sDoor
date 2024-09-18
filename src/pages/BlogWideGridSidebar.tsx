@@ -9,7 +9,7 @@ const BlogWideGridSidebar = () => {
   return (
     <div className="page-content bg-white">
       <CommonBanner
-        img={IMAGES.images_bnr5}
+        img={IMAGES.banner_bnr1}
         title="Blog Wide Grid Sidebar"
         subtitle="Blog Wide Grid Sidebar"
       />
@@ -37,7 +37,7 @@ const BlogWideGridSidebar = () => {
                             </li>
                             <li className="dz-comment">
                               <Link to={"#"}>
-                                <i className="flaticon-chat-bubble"></i> 2.5K{" "}
+                                <i className="flaticon-chat-bubble  "></i> 2.5K{" "}
                               </Link>
                             </li>
                           </ul>
@@ -53,7 +53,7 @@ const BlogWideGridSidebar = () => {
                         </p>
                         <Link
                           to="/blog-standard"
-                          className="btn btn-primary btn-hover-2"
+                          className="btn  btn-primary btn-hover-2"
                         >
                           Read More
                         </Link>

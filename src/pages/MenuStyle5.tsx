@@ -58,8 +58,8 @@ const MenuStyle5 = () => {
   return (
     <div className="page-content bg-white">
       <CommonBanner
-        img={IMAGES.images_bnr5}
-        title="Our Menu 5"
+        img={IMAGES.banner_bnr1}
+        title="القائمة"
         subtitle="Our Menu 5"
       />
 
@@ -79,7 +79,7 @@ const MenuStyle5 = () => {
                       }}
                     >
                       <Link to="#">
-                        <span>
+                        <span className="ms-3">
                           <i className={icon}></i>
                         </span>
                         {title}
@@ -133,18 +133,12 @@ const MenuStyle5 = () => {
                     <img src={img} alt="/" />
                   </div>
                   <div className="dz-content">
-                    <h4 className="dz-title">
+                    <h4 className=" text-center dz-title">
                       <Link to="/product-detail">{name}</Link>
                     </h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipiscing.</p>
-                    <h5 className="dz-price text-primary">{price}</h5>
-                    <Link
-                      to="/shop-cart"
-                      className="btn btn-primary btn-hover-2"
-                    >
-                      {" "}
-                      Add To Cart
-                    </Link>
+                    <h5 className="dz-price text-center text-primary">{price}</h5>
+               
                   </div>
                 </div>
               </li>

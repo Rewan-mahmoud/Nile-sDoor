@@ -63,75 +63,10 @@ const ProductDetail = () => {
                   <li>
                     Price <span className="text-primary m-t5">$20.00</span>
                   </li>
-                  <li>
-                    Quantity
-                    <div className="btn-quantity style-1 m-t5">
-                      <div className="input-group bootstrap-touchspin">
-                        <span className="input-group-addon bootstrap-touchspin-prefix"></span>
-                        <input
-                          id="demo_vertical2"
-                          type="text"
-                          defaultValue={quantity}
-                          key={quantity}
-                          name="demo_vertical2"
-                          className="form-control"
-                        />
-                        <span className="input-group-addon bootstrap-touchspin-postfix"></span>
-                        <span className="input-group-btn-vertical">
-                          <button
-                            className="btn btn-default bootstrap-touchspin-up"
-                            type="button"
-                            onClick={() => {
-                              setQuantity(quantity + 1);
-                            }}
-                          >
-                            <i className="ti-plus"></i>
-                          </button>
-                          <button
-                            className="btn btn-default bootstrap-touchspin-down"
-                            type="button"
-                            onClick={() => {
-                              setQuantity(
-                                quantity > 0 ? quantity - 1 : quantity
-                              );
-                            }}
-                          >
-                            <i className="ti-minus"></i>
-                          </button>
-                        </span>
-                      </div>
-                    </div>
-                  </li>
+                 
                 </ul>
-                <h6 className="title">Add On</h6>
-                <DetailList />
-                <div className="d-lg-flex justify-content-between">
-                  <ul className="modal-btn-group">
-                    <li>
-                      <Link
-                        to="/shop-cart"
-                        className="btn btn-primary btn-hover-1"
-                      >
-                        <span>
-                          Add To Cart{" "}
-                          <i className="flaticon-shopping-bag-1 m-l10"></i>
-                        </span>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        to="/shop-checkout"
-                        className="btn btn-outline-secondary btn-hover-1"
-                      >
-                        <span>
-                          Buy Now{" "}
-                          <i className="flaticon-shopping-cart m-l10"></i>
-                        </span>
-                      </Link>
-                    </li>
-                  </ul>
-                  <Avatar />
-                </div>
+    
+              
               </div>
             </div>
           </div>

@@ -9,7 +9,7 @@ const AboutUs = () => {
     <div className="page-content bg-white">
       <CommonBanner
         img={IMAGES.banner_bnr1}
-        title={"About Us"}
+        title={"من نحن "}
         subtitle={"About Us"}
       />
       <ModalVideoBox />

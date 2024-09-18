@@ -26,8 +26,8 @@
   --third:#efdfa9;
   --bg-light: #efdfa9;
   --font-family-base:'Alhadari', sans-serif;
-  --font-family-title: 'Alhadari', sans-serif'Alhadari', sans-serif;
-  
+  --font-family-title: 'Alhadari', sans-serif;
+  --rgba-primary-9: rgba(69, 38, 21, 0.9) ;
   --title: #222222;
 }
 
@@ -38,7 +38,7 @@ body {
 }
 p, h1, h2, h3, h4, h5, h6 {
   text-align: right;
-font-family:"Alhadari', sans-serif'Alhadari', sans-serif" ;
+font-family:'Alhadari', sans-serif;
   
 }
 
@@ -176,7 +176,7 @@ html, body {
     rgba(255, 255, 255, 0.15),
     rgba(255, 255, 255, 0)
   );
-  --bs-body-font-family: "Poppins", sans-serif;
+  --bs-body-font-family: 'Alhadari';
   --bs-body-font-size: 0.9375rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.6;
@@ -3263,7 +3263,7 @@ select.is-invalid:focus {
 .wp-block-button__link {
   --bs-btn-padding-x: 0.75rem;
   --bs-btn-padding-y: 0.375rem;
-  --bs-btn-font-family: ;
+  --bs-btn-font-family:  'Alhadari', sans-serif;
   --bs-btn-font-size: 0.9375rem;
   --bs-btn-font-weight: 400;
   --bs-btn-line-height: 1.6;
@@ -6246,7 +6246,7 @@ fieldset:disabled .wp-block-button__link {
   display: block;
   padding: var(--bs-tooltip-arrow-height);
   margin: var(--bs-tooltip-margin);
-  font-family: "Poppins", sans-serif;
+  font-family: 'Alhadari', sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.6;
@@ -6370,7 +6370,7 @@ fieldset:disabled .wp-block-button__link {
   z-index: var(--bs-popover-zindex);
   display: block;
   max-width: var(--bs-popover-max-width);
-  font-family: "Poppins", sans-serif;
+  font-family:'Alhadari';
   font-style: normal;
   font-weight: 400;
   line-height: 1.6;
@@ -15267,7 +15267,7 @@ section {
 .wp-block-search .section-head .title.wp-block-search__label,
 .section-head h5.title,
 .section-head .title.h5 {
-  font-family: Lobster;
+  font-family: 'Alhadari', sans-serif;;
   font-weight: 400;
 }
 .section-head h2.title,
@@ -15275,7 +15275,7 @@ section {
   font-size: 60px;
   line-height: 1;
   font-style: normal;
-  font-family: Lobster;
+  font-family: 'Alhadari', sans-serif;;
 }
 @media only screen and (max-width: 1280px) {
   .section-head h2.title,
@@ -17208,6 +17208,9 @@ section {
   z-index: 1;
   width: 100%;
 }
+.dz-bnr-inr-entry h1 {
+  font-family:'Alhadari', sans-serif; 
+}
 @media only screen and (max-width: 991px) {
   .dz-bnr-inr {
     height: 400px;
@@ -17227,6 +17230,7 @@ section {
 .dz-bnr-inr .dz-bnr-inr-entry {
   vertical-align: middle;
   display: table-cell;
+  font-family:'Alhadari', sans-serif;
 }
 @media only screen and (max-width: 767px) {
   .dz-bnr-inr .dz-bnr-inr-entry {
@@ -17324,7 +17328,7 @@ section {
   left: 0;
   width: 100%;
   height: 100%;
-  background: var(--fourth)
+  background: var( --rgba-primary-9)
 }
 
 .dz-bnr-inr.style-1 h1,
@@ -17334,7 +17338,7 @@ section {
   font-size: 70px;
   line-height: 1.2;
   margin-bottom: 20px;
-  font-family: "Lobster";
+  font-family: "Alhadari', sans-serif";
 }
 @media only screen and (max-width: 1480px) {
   .dz-bnr-inr.style-1 h1,
@@ -22979,10 +22983,10 @@ ul a.rsswidget:hover {
 }
 .recent-posts-entry .widget-post-bx .widget-post .title {
   line-height: 1.3;
-  font-family: "Poppins";
+  font-family: "Alhadari', sans-serif";
   margin-bottom: 8px;
   display: block;
-  font-size: 16px;
+  font-size: 12px;
 }
 @media only screen and (max-width: 1199px) {
   .recent-posts-entry .widget-post-bx .widget-post .title {
@@ -25101,7 +25105,7 @@ ul a.rsswidget:hover {
 }
 .main-bnr-one .banner-inner .banner-content h1,
 .main-bnr-one .banner-inner .banner-content .h1 {
-  font-family: "Lobster";
+  font-family: 'Alhadari', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 80px;
@@ -27230,6 +27234,9 @@ ul a.rsswidget:hover {
 .icon-content {
   overflow: hidden;
 }
+.icon-content  p {
+  text-align: center;
+}
 
 [class*="icon-bx-"][class*="bg-"] a,
 [class*="icon-bx-"][class*="bg-"] span {
@@ -27423,7 +27430,7 @@ ul a.rsswidget:hover {
 }
 .icon-bx-wraper.style-1:hover::after,
 .icon-bx-wraper.style-1.active::after {
-  background:var(--fourth);
+  background: var(--rgba-primary-9);
 }
 .icon-bx-wraper.style-1:hover .icon-content .dz-title,
 .icon-bx-wraper.style-1.active .icon-content .dz-title {
@@ -29439,7 +29446,7 @@ blockquote.wp-block-pullquote.alignright .quotes,
 blockquote.wp-block-pullquote.alignleft .quotes,
 blockquote .quotes {
   position: absolute;
-  right: 20px;
+  left: 20px;
   bottom: 17px;
   font-size: 64px;
   color: var(--primary);
@@ -30812,7 +30819,7 @@ pre {
   text-transform: capitalize;
   font-size: 14px;
   position: absolute;
-  top: -3px;
+  bottom: -3px;
   right: 0;
   font-weight: 500;
   display: inline-block;
@@ -32254,7 +32261,7 @@ pre {
 }
 .product-detail .detail-info .text {
   font-size: 15px;
-  margin-top: 20px;
+  margin-top: 60px;
 }
 .product-detail .detail-info .detail-list {
   display: flex;
