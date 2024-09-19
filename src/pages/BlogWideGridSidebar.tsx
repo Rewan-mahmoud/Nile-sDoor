@@ -10,8 +10,8 @@ const BlogWideGridSidebar = () => {
     <div className="page-content bg-white">
       <CommonBanner
         img={IMAGES.banner_bnr1}
-        title="Blog Wide Grid Sidebar"
-        subtitle="Blog Wide Grid Sidebar"
+        title="المدونة"
+        subtitle="المدونة"
       />
       <section className="content-inner">
         <div className="container-fluid">

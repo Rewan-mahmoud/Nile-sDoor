@@ -138,30 +138,10 @@ const Footer4 = () => {
         </div>
       </div>
       <div className="container">
-        <div className="footer-bottom">
-          <div className="row">
-            <div className="col-xl-6 col-md-6 text-md-start">
-              <p>Copyright 2023 All rights reserved.</p>
-            </div>
-            <div className="col-xl-6 col-md-6 text-md-end">
-              <span className="copyright-text">
-                Crafted With{" "}
-                <span
-                  className="heart"
-                  ref={heartRef}
-                  onClick={() => {
-                    heartRef.current?.classList.toggle("heart-blast");
-                  }}
-                ></span>{" "}
-                by{" "}
-                <Link to="https://dexignzone.com/" target="_blank">
-                  DexignZone
-                </Link>
-              </span>
-            </div>
+          <div className="footer-bottom">
+            <p className="text-center">Copyright 2023 All rights reserved.</p>
           </div>
         </div>
-      </div>
       <img className="bg1 dz-move" src={IMAGES.background_pic5} alt="/" />
       <img className="bg2 dz-move" src={IMAGES.background_pic6} alt="/" />
     </footer>

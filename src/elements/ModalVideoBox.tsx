@@ -17,8 +17,8 @@ const ModalVideoBox = () => {
       <section className="content-inner pb-0">
         <div className="container">
           <div className="section-head text-center">
-            <h2 className="title">We Invite you to Visit Our Restaurant</h2>
-            <p className="about-p">
+            <h2 className="title text-center">We Invite you to Visit Our Restaurant</h2>
+            <p className="about-p text-center">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s, when an unknown printer took a galley of

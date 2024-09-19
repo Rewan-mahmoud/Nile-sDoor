@@ -9,8 +9,8 @@ const ContactUs = () => {
     <div className="page-content bg-white">
       <CommonBanner
         img={IMAGES.banner_bnr1}
-        title="Contact Us"
-        subtitle="Contact Us"
+        title="تواصل معنا "
+        subtitle=" تواصل معنا"
       />
       <section className="section-wrapper-8 content-inner-1">
         <div className="container">

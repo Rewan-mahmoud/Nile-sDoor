@@ -15983,7 +15983,7 @@ section {
   padding: 0;
 }
 @media only screen and (max-width: 991px) {
-  .{
+  .header-nav{
     overflow-y: scroll;
     position: fixed;
     width: 60px;
@@ -17338,7 +17338,6 @@ section {
   font-size: 70px;
   line-height: 1.2;
   margin-bottom: 20px;
-  font-family: "Alhadari', sans-serif";
 }
 @media only screen and (max-width: 1480px) {
   .dz-bnr-inr.style-1 h1,
@@ -27678,6 +27677,9 @@ ul a.rsswidget:hover {
   overflow: hidden;
   z-index: 1;
 }
+.icon-bx-wraper.style-5 .icon-content:hover{
+  background-color: var(--primary);
+} 
 .icon-bx-wraper.style-5 .icon-content .title {
   margin-bottom: 10px;
   -webkit-transition: all 0.5s;
@@ -27718,6 +27720,7 @@ ul a.rsswidget:hover {
 .icon-bx-wraper.style-5:hover .icon-content .effect,
 .icon-bx-wraper.style-5.active .icon-content .effect {
   width: 300%;
+  
   height: 300%;
 }
 @media only screen and (max-width: 1280px) {

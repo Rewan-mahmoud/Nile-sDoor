@@ -63,13 +63,13 @@ const MainBanner = () => {
                             to="/contact-us"
                             className="btn btn-primary btn-md shadow-primary m-r30 btn-hover-1"
                           >
-                            <span>Book a Table</span>
+                            <span> تواصل معنا </span>
                           </Link>
                           <Link
                             to="/about-us"
-                            className="btn btn-outline-primary btn-md shadow-primary btn-hover-1"
+                            className="btn btn-outline-primary btn-md shadow-primary me-2 btn-hover-1"
                           >
-                            <span>View More</span>
+                            <span> اقراء المزيد</span>
                           </Link>
                         </div>
                       </div>

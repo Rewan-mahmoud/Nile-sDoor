@@ -16,7 +16,7 @@ const AboutUs = () => {
       <section className="content-inner">
         <div className="container">
           <div className="section-head text-center">
-            <h2 className="title">What We Do</h2>
+            <h2 className="title text-center">What We Do</h2>
           </div>
           <div className="row">
             {AboutServiceArr.map(({ icon, title }, ind) => (
