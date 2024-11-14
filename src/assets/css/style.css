@@ -15955,7 +15955,7 @@ section {
 }
 .navicon.open span:nth-child(2) {
   opacity: 0;
-  left: -60px;
+  left: -70px;
 }
 .navicon.open span:nth-child(3) {
   top: 25px;
@@ -16573,13 +16573,13 @@ section {
     top: 0;
     background-color: #fff;
     margin: 0;
-    z-index: 99;
+    z-index: 90;
   }
   .mo-left .header-nav.nav-dark {
     background-color: #202020;
   }
   .mo-left .header-nav.show {
-    left: -1px;
+    right: -1px;
     transition: all 0.8s;
     -webkit-transition: all 0.8s;
     -moz-transition: all 0.8s;
@@ -16604,27 +16604,9 @@ section {
     position: relative;
   }
   .mo-left .navbar-toggler.open {
-    z-index: 99;
+    z-index: 999;
   }
-  .mo-left .navbar-toggler.open::after {
-    background-color: rgba(0, 0, 0, 0.6);
-    content: "";
-    left: 0;
-    position: fixed;
-    right: -20px;
-    top: -63px;
-    transform: scale(100);
-    -o-transform: scale(100);
-    -moz-transform: scale(100);
-    -webkit-transform: scale(100);
-    width: 100%;
-    z-index: -1;
-    transition: all 0.5s;
-    transform-origin: top right;
-    margin: 0 0px 0px 20px;
-    -webkit-box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.6);
-    box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.6);
-  }
+
   .mo-left .navbar-toggler.open span {
     background: #fff;
   }
