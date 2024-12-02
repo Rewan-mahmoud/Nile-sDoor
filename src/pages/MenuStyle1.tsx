@@ -8,7 +8,7 @@ const MenuStyle1 = () => {
     <div className="page-content bg-white">
       <CommonBanner
         img={IMAGES.banner_bnr1}
-        title="Our Menu 1"
+        title="القائمة"
         subtitle="Our Menu 1"
       />
       <section className="content-inner section-wrapper-7 overflow-hidden bg-white">
@@ -16,7 +16,7 @@ const MenuStyle1 = () => {
           <div className="row inner-section-wrapper">
             {MenuStyle1Arr.map(({ title, child }, ind) => (
               <div className="col-xl-4 col-lg-6 col-md-6" key={ind}>
-                <div className="menu-head">
+                <div className="">
                   <h4 className="title text-primary">{title}</h4>
                 </div>
                 {child?.map(({ categery, price }, index) => (
@@ -32,11 +32,11 @@ const MenuStyle1 = () => {
                         <span className="img-line"></span>
                         <span className="header-price">{price}</span>
                       </div>
-                      <p className="dz-body">
+                      {/* <p className="dz-body">
                         Lorem Ipsum is simply dummy text of the printing and
                         typesetting industry. Lorem Ipsum has been the
                         industry's
-                      </p>
+                      </p> */}
                     </div>
                   </div>
                 ))}
@@ -46,7 +46,7 @@ const MenuStyle1 = () => {
           <div className="row">
             {MenuStyle1Arr2.map(({ title, child }, ind) => (
               <div className="col-xl-4 col-lg-6 col-md-6" key={ind}>
-                <div className="menu-head">
+                <div className="">
                   <h4 className="title text-primary">{title}</h4>
                 </div>
                 {child?.map(({ categery, price }, index) => (
@@ -62,11 +62,11 @@ const MenuStyle1 = () => {
                         <span className="img-line"></span>
                         <span className="header-price">{price}</span>
                       </div>
-                      <p className="dz-body">
+                      {/* <p className="dz-body">
                         Lorem Ipsum is simply dummy text of the printing and
                         typesetting industry. Lorem Ipsum has been the
                         industry's
-                      </p>
+                      </p> */}
                     </div>
                   </div>
                 ))}

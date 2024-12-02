@@ -4,54 +4,35 @@ export const MainBannerArr = [
   {
     img: IMAGES.main_slide_pic1,
     imgThumb: IMAGES.main_slide_thumb_pic1,
-    subtitle: "High Quality Test Station",
-    title: "Choosing The",
-    title2: "Best",
-    title3: "Quality Food",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-  },
-  {
-    img: IMAGES.main_slide_pic1,
-    imgThumb: IMAGES.main_slide_thumb_pic2,
-    subtitle: "The Best Food Stations",
-    title: "Where Food ",
-    title2: "Meets",
-    title3: "Best Passion",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-  },
-  {
-    img: IMAGES.main_slide_pic1,
-    imgThumb: IMAGES.main_slide_thumb_pic3,
-    subtitle: "Exploring the Delicious World",
-    title: "Delicious Eats",
-    title2: "And",
-    title3: "Tasty Drinks",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    title: "مرحبا بكم ",
+    title2: "مذاق مصر في قلب جدة",
+    title3: " في باب النيل",
+    text: "اكتشفوا عالمًا مليئًا بالنكهات المصرية الأصيلة في مطعم باب النيل، حيث تتجسد تقاليد المطبخ المصري العريق في مدينة جدة النابضة بالحياة.",
   },
 ];
 
 export const HomeSpacialMenunArr = [
   {
-    name: "Pizza",
-    price: "$55.00",
+    name: "بيتزا",
+    price: "48  ر.س",
     img: IMAGES.gallery_small_pic1,
-    title: "Cheese Pizza",
+    title: " بيتزا مارجريتا",
   },
   {
-    name: "Rice",
-    price: "$50.00",
+    name: "برجر",
+    price: "55 ر.س",
     img: IMAGES.gallery_small_pic2,
-    title: "Fried Rice",
+    title: " برجر لحم",
   },
   {
-    name: "Green Salad",
-    price: "$45.00",
+    name: " سلطة سيزر مع دجاج",
+    price: "59ر.س",
     img: IMAGES.gallery_small_pic3,
     title: "Green Salad",
   },
   {
-    name: "Pasta",
-    price: "$35.00",
+    name: "باستا ارابياتا",
+    price: "55ر.س",
     img: IMAGES.gallery_small_pic4,
     title: "Butterfly Pasta",
   },
@@ -59,45 +40,74 @@ export const HomeSpacialMenunArr = [
 
 export const HomeImageBoxArr = [
   {
-    price: "$55.00",
-    name: "Pasta",
+    price: "55ر.س",
+    name: "باستا ",
     img: IMAGES.gallery_grid_pic2,
     img2: IMAGES.gallery_grid_pic1,
     icon: "flaticon-restaurant",
-    title: "Restaurant",
+    title: "باستا ارابياتا",
   },
   {
-    price: "$50.00",
-    name: "Shake",
+    price: "38 ر.س",
+    name: "مشروبات باردة",
     img: IMAGES.gallery_grid_pic5,
     img2: IMAGES.gallery_grid_pic2,
     icon: "flaticon-martini",
-    title: "Bar",
+    title: "ميلك شيك ",
   },
   {
-    price: "$45.00",
-    name: "Dal Fry",
+    price: "30 ر.س",
+    name: " شوربة",
     img: IMAGES.gallery_grid_pic4,
     img2: IMAGES.gallery_grid_pic1,
     icon: "flaticon-coffee-cup",
-    title: "Cafe",
+    title: "شوربة الدجاج الكريمي",
   },
   {
     price: "$35.00",
-    name: "Pizza",
+    name: "بيتزا",
     img: IMAGES.gallery_grid_pic6,
     img2: IMAGES.gallery_grid_pic4,
     icon: "flaticon-cake",
-    title: "Dessert",
+    title: "بيتزا باب النيل",
+  },
+];
+export const categery = [
+  {
+    title: "مطعم ",
+    img: IMAGES.gallery_grid_pic2,
+    img2: IMAGES.gallery_grid_pic1,
+    icon: "flaticon-restaurant",
+  },
+  {
+    img: IMAGES.gallery_grid_pic5,
+    img2: IMAGES.gallery_grid_pic2,
+    icon: "flaticon-martini",
+    title: "بار",
+  },
+  {
+    price: "30 ر.س",
+    name: " شوربة",
+    img: IMAGES.gallery_grid_pic4,
+    img2: IMAGES.gallery_grid_pic1,
+    icon: "flaticon-coffee-cup",
+    title: "كافية",
+  },
+  {
+    price: "$35.00",
+    name: "بيتزا",
+    img: IMAGES.gallery_grid_pic6,
+    img2: IMAGES.gallery_grid_pic4,
+    icon: "flaticon-cake",
+    title: " حلويات ",
   },
 ];
 
 export const MenuSliderArr = [
-  { img: IMAGES.gallery_grid_pic5, name: "Burger", price: "$20.00" },
-  { img: IMAGES.gallery_grid_pic2, name: "Pasta", price: "$10.00" },
-  { img: IMAGES.gallery_grid_pic6, name: "Tandoor", price: "$15.00" },
-  { img: IMAGES.gallery_grid_pic4, name: "Dal Fry", price: "$65.00" },
-  { img: IMAGES.gallery_grid_pic4, name: "Burger", price: "$20.00" },
+  { img: IMAGES.gallery_grid_pic5, name: "ميلك شيك", price: " ر.س 38.00" },
+  { img: IMAGES.gallery_grid_pic2, name: "مكرونة الفريدو", price: "59.00 ر.س" },
+  { img: IMAGES.gallery_grid_pic6, name: "بيتزا خضار", price: "50.00ر.س" },
+  { img: IMAGES.gallery_grid_pic4, name: "برجر لحم", price: "55 ر.س" },
 ];
 
 export const TestymonialArr = [
@@ -351,10 +361,10 @@ export const Home3OurMenuArr = [
 ];
 
 export const AboutServiceArr = [
-  { icon: "flaticon-vegetable", title: "Fresh Products" },
-  { icon: "flaticon-chef-hat", title: "Fresh Products" },
-  { icon: "flaticon-cocktail", title: "Fresh Products" },
-  { icon: "flaticon-cuisine", title: "Fresh Products" },
+  { icon: "flaticon-vegetable", title: "المكونات الطازجة" },
+  { icon: "flaticon-chef-hat", title: "الطعام" },
+  { icon: "flaticon-cocktail", title: "المشروبات" },
+  { icon: "flaticon-cuisine", title: "الضيافة" },
 ];
 
 export const FaqArr = [
@@ -437,54 +447,215 @@ export const ServicesArr = [
 
 export const MenuStyle1Arr = [
   {
-    title: "Starters",
+    title: "عصائر فريش", // Fresh Juices
     child: [
-      { categery: "Creamy Mushroom Soup", price: "$10" },
-      { categery: "Stuffed Mushrooms", price: "$14" },
-      { categery: "Grilled Caesar Salad", price: "$18" },
-      { categery: "Signature Autumn Salad", price: "$25" },
-      { categery: "Glazed Tomato Bruschite", price: "$35" },
+      { categery: "برتقال", price: "28.0" },
+      { categery: "ليمون نعناع", price: "30.0" },
+      { categery: "بطيخ", price: "30.0" },
+      { categery: "فراولة", price: "30.0" },
+      { categery: "اناناس", price: "30.0" },
+      { categery: "مانجو", price: "30.0" },
+      { categery: "شمام بدون حليب", price: "30.0" },
+      { categery: "شمام بالحليب", price: "30.0" },
     ],
   },
   {
-    title: "Seafood",
+    title: "مشروبات باردة", // Cold Drinks
     child: [
-      { categery: "Baked Oysters Rockefeller", price: "$13" },
-      { categery: "Grilled Shrimp Skewers", price: "$15" },
-      { categery: "Seafood Linguine", price: "$14" },
-      { categery: "Shrimp Scampi", price: "$20" },
+      { categery: "ايس سبيشال لاتيه", price: "30.0" },
+      { categery: "ايس امريكانو", price: "30.0" },
+      { categery: "ايس وايت موكا", price: "33.0" },
+      { categery: "ايس في 60", price: "33.0" },
+      { categery: "ايس لاتيه", price: "30.0" },
+      { categery: "ايس تي خوخ", price: "26.0" },
+      { categery: "كركدية باب النيل", price: "25.0" },
+    ],
+  },
+  {
+    title: "ميلك شيك", // Milkshake
+    child: [
+      { categery: "ميلك شيك اوريو", price: "38.0" },
+      { categery: "ميلك شيك فراولة", price: "38.0" },
+      { categery: "ميلك شيك شوكولاتة", price: "38.0" },
+      { categery: "ميلك شيك باب النيل", price: "40.0" },
     ],
   },
 ];
+
 export const MenuStyle1Arr2 = [
   {
-    title: "Drinks",
+    title: "مشروبات ساخنة", // Hot Drinks
     child: [
-      { categery: "Cranberry Juice", price: "$10" },
-      { categery: "Hot Chocolate", price: "$14" },
-      { categery: "Lemon-Lime Soda", price: "$18" },
-      { categery: "Alcoholic beverages", price: "$25" },
+      { categery: "اسبريسو", price: "22.0" },
+      { categery: "دبل اسبريسو", price: "24.0" },
+      { categery: "ميكاتو", price: "28.0" },
+      { categery: "كورنادو", price: "28.0" },
+      { categery: "فلات وايت", price: "28.0" },
+      { categery: "كافية لاتيه", price: "30.0" },
+      { categery: "كابتشينو", price: "30.0" },
+      { categery: "امريكانو", price: "30.0" },
+      { categery: "سبانش لاتيه", price: "30.0" },
+      { categery: "قهوة فرنسي", price: "30.0" },
+      { categery: "قهوة تركي بدون حليب", price: "24.0" },
+      { categery: "قهوة تركي مع حليب", price: "28.0" },
+      { categery: "موكا ساخنة", price: "28.0" },
+      { categery: "هوت شوكليت", price: "28.0" },
+      { categery: "في 60", price: "33.0" },
+      { categery: "شاي مغربي", price: "35.0" },
+      { categery: "شاي أحمر", price: "16.0" },
+      { categery: "شاي أخضر", price: "16.0" },
     ],
   },
   {
-    title: "Specials",
+    title: "موهيتو", // Mojito
     child: [
-      { categery: "Beef Tenderloin & Red Wine", price: "$13" },
-      { categery: "Mushroom Risotto", price: "$15" },
-      { categery: "Lobster Thermidor", price: "$14" },
-      { categery: "Beef Bourguignon", price: "$20" },
+      { categery: "موهيتو توت أحمر", price: "41.0" },
+      { categery: "موهيتو توت أزرق", price: "41.0" },
+      { categery: "موهيتو ميكس بيري", price: "42.0" },
+      { categery: "موهيتو فراولة", price: "41.0" },
+      { categery: "موهيتو باشن فروت", price: "44.0" },
+      { categery: "موهيتو باب النيل", price: "45.0" },
     ],
   },
   {
-    title: "Meat",
+    title: "كوكتيلات", // Cocktails
     child: [
-      { categery: "Beef Bourguignon", price: "$30" },
-      { categery: "Barbecue Ribs", price: "$28" },
-      { categery: "Roasted Turkey", price: "$40" },
-      { categery: "Beef Stroganoff", price: "$92" },
+      { categery: "فريشكو كوكتيل", price: "35.0" },
+      { categery: "بينكولادا", price: "35.0" },
+      { categery: "Lait de Poule ليتيبول", price: "35.0" },
+      { categery: "لافينا", price: "35.0" },
+      { categery: "دلع البنات", price: "35.0" },
+      { categery: "أناناس مع برتقال", price: "35.0" },
+      { categery: "كوكتيل باب النيل", price: "38.0" },
+    ],
+  },
+  {
+    title: "الشوربة", // Soup
+    child: [
+      { categery: "شربة السيفود", price: "34.0" },
+      { categery: "شربة الدجاج الكريمي", price: "30.0" },
+      { categery: "شربة العدس المصرية", price: "30.0" },
+      { categery: "شربة باب النيل", price: "37.0" },
+    ],
+  },
+  {
+    title: "المقبلات الباردة", // Cold Appetizer
+    child: [
+      { categery: "بابا غنوج", price: "30.0" },
+      { categery: "ورق عنب", price: "36.0" },
+      { categery: "حمص", price: "30.0" },
+      { categery: "مقبلات باب النيل الباردة", price: "38.0" },
+    ],
+  },
+  {
+    title: "المقبلات الساخنة", // Hot Appetizer
+    child: [
+      { categery: "مشكل كرات الارونشيني", price: "40.0" },
+      { categery: "ديناميت جمبري", price: "36.0" },
+      { categery: "بطاطس حارة", price: "35.0" },
+      { categery: "مقبلات ساخنة باب النيل", price: "38.0" },
+    ],
+  },
+  {
+    title: "البيتزا", // Pizza
+    child: [
+      { categery: "بيتزا مارغريتا", price: "48.0" },
+      { categery: "بيتزا روستو", price: "50.0" },
+      { categery: "بيتزا خضار", price: "52.0" },
+      { categery: "بيتزا باب النيل", price: "55.0" },
+    ],
+  },
+  {
+    title: "الأطباق الرئيسية", // Main Dishes
+    child: [
+      { categery: "سمك مشوي", price: "130.0" },
+      { categery: "تشكيلة بحرية", price: "170.0" },
+    ],
+  },
+  {
+    title: "اكلات مصرية", // Egyptian Dishes
+    child: [
+      { categery: "أوصال", price: "90.0" },
+      { categery: "كفته لحم", price: "80.0" },
+      { categery: "شيش طاووق", price: "75.0" },
+      { categery: "كشري", price: "40.0" },
+    ],
+  },
+  {
+    title: "السندويتشات", // Sandwiches
+    child: [
+      { categery: "برجر دجاج", price: "50.0" },
+      { categery: "برجر لحم", price: "55.0" },
+      { categery: "كلوب ساندويتش دجاج", price: "51.0" },
+      { categery: "ساندويتش فاهيتا دجاج", price: "45.0" },
+      { categery: "بروستيكيا مشكل على طريقة باب النيل", price: "40.0" },
     ],
   },
 ];
+// export const MenuStyle1Arr3 = [
+//   {
+//     title: "الشوربة", // Soup
+//     child: [
+//       { categery: "شربة السيفود", price: "34.0" },
+//       { categery: "شربة الدجاج الكريمي", price: "30.0" },
+//       { categery: "شربة العدس المصرية", price: "30.0" },
+//       { categery: "شربة باب النيل", price: "37.0" },
+//     ],
+//   },
+//   {
+//     title: "المقبلات الباردة", // Cold Appetizer
+//     child: [
+//       { categery: "بابا غنوج", price: "30.0" },
+//       { categery: "ورق عنب", price: "36.0" },
+//       { categery: "حمص", price: "30.0" },
+//       { categery: "مقبلات باب النيل الباردة", price: "38.0" },
+//     ],
+//   },
+//   {
+//     title: "المقبلات الساخنة", // Hot Appetizer
+//     child: [
+//       { categery: "مشكل كرات الارونشيني", price: "40.0" },
+//       { categery: "ديناميت جمبري", price: "36.0" },
+//       { categery: "بطاطس حارة", price: "35.0" },
+//       { categery: "مقبلات ساخنة باب النيل", price: "38.0" },
+//     ],
+//   },
+//   {
+//     title: "البيتزا", // Pizza
+//     child: [
+//       { categery: "بيتزا مارغريتا", price: "48.0" },
+//       { categery: "بيتزا روستو", price: "50.0" },
+//       { categery: "بيتزا خضار", price: "52.0" },
+//       { categery: "بيتزا باب النيل", price: "55.0" },
+//     ],
+//   },
+//   {
+//     title: "الأطباق الرئيسية", // Main Dishes
+//     child: [
+//       { categery: "سمك مشوي", price: "130.0" },
+//       { categery: "تشكيلة بحرية", price: "170.0" },
+//     ],
+//   },
+//   {
+//     title: "اكلات مصرية", // Egyptian Dishes
+//     child: [
+//       { categery: "أوصال", price: "90.0" },
+//       { categery: "كفته لحم", price: "80.0" },
+//       { categery: "شيش طاووق", price: "75.0" },
+//       { categery: "كشري", price: "40.0" },
+//     ],
+//   },
+//   {
+//     title: "السندويتشات", // Sandwiches
+//     child: [
+//       { categery: "برجر دجاج", price: "50.0" },
+//       { categery: "برجر لحم", price: "55.0" },
+//       { categery: "كلوب ساندويتش دجاج", price: "51.0" },
+//       { categery: "ساندويتش فاهيتا دجاج", price: "45.0" },
+//       { categery: "بروستيكيا مشكل على طريقة باب النيل", price: "40.0" },
+//     ],
+//   },
+// ];
 
 export const MenuStyle2Arr = [
   {

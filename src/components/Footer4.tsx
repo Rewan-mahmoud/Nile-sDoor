@@ -11,12 +11,11 @@ const Footer4 = () => {
           <div className="row">
             <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6">
               <div className="widget widget_getintuch">
-                <h5 className="footer-title">Contact</h5>
+                <h5 className="footer-title">التواصل</h5>
                 <ul>
                   <li>
                     <i className="flaticon-placeholder"></i>
                     <p>
-                      1247/Plot No. 39, 15th Phase, Colony, Kkatpally, Hyderabad
                     </p>
                   </li>
                   <li>
@@ -40,31 +39,31 @@ const Footer4 = () => {
             </div>
             <div className="col-xl-3 col-lg-2 col-md-6 col-sm-6">
               <div className="widget widget_services">
-                <h5 className="footer-title">Our Links</h5>
+                <h5 className="footer-title">الروابط</h5>
                 <ul>
                   <li>
                     <Link to="/">
-                      <span>Home</span>
+                      <span>الصفحة الرئيسية</span>
                     </Link>
                   </li>
                   <li>
                     <Link to="/about-us">
-                      <span>About Us</span>
+                      <span>من نحن </span>
                     </Link>
                   </li>
                   <li>
                     <Link to="/services">
-                      <span>Services</span>
+                      <span>خدماتنا</span>
                     </Link>
                   </li>
                   <li>
-                    <Link to="/team">
-                      <span>Team</span>
+                    <Link to="/our-menu-1">
+                      <span>القائمة</span>
                     </Link>
                   </li>
                   <li>
                     <Link to="/blog-standard">
-                      <span>Blog</span>
+                      <span>المدونة</span>
                     </Link>
                   </li>
                 </ul>

@@ -157,9 +157,6 @@ function App() {
               <Route path="/services" element={<Services />} />
               <Route path="/service-detail" element={<ServiceDetail />} />
               <Route path="/our-menu-1" element={<MenuStyle1 />} />
-              <Route path="/our-menu-2" element={<MenuStyle2 />} />
-              <Route path="/our-menu-3" element={<MenuStyle3 />} />
-              <Route path="/our-menu-4" element={<MenuStyle4 />} />
               <Route path="/our-menu-5" element={<MenuStyle5 />} />
               <Route path="/shop-style-1" element={<ShopStyle1 />} />
               <Route path="/shop-style-2" element={<ShopStyle2 />} />

@@ -24,10 +24,10 @@ const HomeSpacialMenu = () => {
                 <img src={img} alt="/" />
               </div>
               <div className="dz-content">
-                <h4 className="dz-title">
+                <h4 className="dz-title text-center">
                   <Link to="/product-detail">{name}</Link>
                 </h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing.</p>
+                {/* <p>Lorem ipsum dolor sit amet consectetur adipiscing.</p> */}
                 <h5 className="dz-price text-center text-primary">{price}</h5>
                
               </div>

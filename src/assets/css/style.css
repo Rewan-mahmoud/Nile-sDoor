@@ -16107,7 +16107,7 @@ section {
 }
 .header-nav .nav > li > a {
   color: #071c35;
-  font-size: 18px;
+  font-size: 21px;
   padding: 40px 15px;
   font-family: var(--font-family-base);
   cursor: pointer;
@@ -16837,7 +16837,7 @@ section {
 }
 @media only screen and (min-width: 1024px) {
   .site-header.style-1 .header-nav .nav > li > a {
-    padding: 40px 12px;
+    padding: 40px 20px;
     font-weight: 400;
     line-height: 24px;
   }
@@ -32581,12 +32581,12 @@ pre {
 }
 .section-wrapper-7::after {
   content: "";
-  width: 850px;
-  height: 850px;
+  width: 625px;
+  height: 538px;
   background-color: #ffeebb;
   position: absolute;
   top: 110px;
-  right: -19%;
+  left: -50%;
   z-index: -2;
   filter: blur(9px);
   border-radius: 100%;
@@ -32601,8 +32601,8 @@ pre {
 }
 .section-wrapper-7 .bg2 {
   position: absolute;
-  right: -54px;
-  top: 30px;
+  left: -54px;
+  top: 115px;
   z-index: -1;
 }
 @media only screen and (max-width: 1480px) {
@@ -32610,13 +32610,13 @@ pre {
     width: 700px;
     height: 700px;
     top: 45px;
-    right: -22%;
+    left: -22%;
   }
   .section-wrapper-7 .bg1 {
     display: none;
   }
   .section-wrapper-7 .bg2 {
-    width: 600px;
+    width: 389px;
   }
 }
 @media only screen and (max-width: 1280px) {
@@ -32625,7 +32625,7 @@ pre {
     height: 600px;
   }
   .section-wrapper-7 .bg2 {
-    width: 500px;
+    width: 389px;
   }
 }
 @media only screen and (max-width: 1024px) {

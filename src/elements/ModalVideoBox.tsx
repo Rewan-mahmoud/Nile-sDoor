@@ -17,12 +17,9 @@ const ModalVideoBox = () => {
       <section className="content-inner pb-0">
         <div className="container">
           <div className="section-head text-center">
-            <h2 className="title text-center">We Invite you to Visit Our Restaurant</h2>
+            <h2 className="title text-center">ندعوك لزيارة مطعمنا</h2>
             <p className="about-p text-center">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+            في باب النيل، نسعى لنأخذكم في رحلة إلى شوارع القاهرة والإسكندرية مع كل لقمة. نقدم وصفات عائلية قديمة بتفاصيل عصرية، ونعد أطباقنا باستخدام أفضل المكونات وشغفنا بالطعم الأصيل.
             </p>
           </div>
           <div className="row">

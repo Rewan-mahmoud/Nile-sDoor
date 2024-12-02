@@ -144,7 +144,6 @@ const Home3BookTable = () => {
               <li>
                 <i className="flaticon-placeholder"></i>
                 <p>
-                  1247/Plot No. 39, 15th Phase, Colony, Kkatpally, Hyderabad
                 </p>
               </li>
               <li>

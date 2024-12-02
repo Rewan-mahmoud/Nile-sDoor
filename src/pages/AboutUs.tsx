@@ -16,7 +16,7 @@ const AboutUs = () => {
       <section className="content-inner">
         <div className="container">
           <div className="section-head text-center">
-            <h2 className="title text-center">What We Do</h2>
+            <h2 className="title text-center">ماذا نقدم</h2>
           </div>
           <div className="row">
             {AboutServiceArr.map(({ icon, title }, ind) => (
@@ -28,10 +28,10 @@ const AboutUs = () => {
                     </div>
                   </div>
                   <div className="icon-content">
-                    <h5 className="title">
+                    <h5 className="title text-center">
                       <Link to="/service-detail">{title}</Link>
                     </h5>
-                    <p>Lorem Ipsum is simply dummy text of the printing and </p>
+      
                   </div>
                 </div>
               </div>

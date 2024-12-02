@@ -89,47 +89,7 @@ const MainBanner = () => {
           )
         )}
       </Swiper>
-      <div className="container">
-        <div className="main-thumb1-area swiper-btn-lr wow fadeInUp">
-          <Swiper
-            className="swiper main-thumb1"
-            slidesPerView={2}
-            freeMode={true}
-            loop={true}
-            modules={[Navigation]}
-            // eslint-disable-next-line @typescript-eslint/no-explicit-any
-            onSwiper={(swiper: any) => {
-              setThumbsSwiper(swiper);
-            }}
-            navigation={{
-              prevEl: ".thumb-button-prev",
-              nextEl: ".thumb-button-next",
-            }}
-          >
-            {MainBannerArr.map(({ imgThumb }, ind) => (
-              <SwiperSlide className="swiper-slide" key={ind}>
-                <div className="food-card">
-                  <div className="dz-media">
-                    <img src={imgThumb} alt="/" />
-                  </div>
-                  <div className="dz-content">
-                    <h5 className="title">BreakFast</h5>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                    </p>
-                  </div>
-                </div>
-              </SwiperSlide>
-            ))}
-          </Swiper>
-          <div className="thumb-button-prev btn-prev-1">
-            <i className="fa-solid fa-angle-left"></i>
-          </div>
-          <div className="thumb-button-next btn-next-1">
-            <i className="fa-solid fa-angle-right"></i>
-          </div>
-        </div>
-      </div>
+     
     </div>
   );
 };

@@ -7,13 +7,13 @@ import { Context } from "../context/AppContext";
 import OurMenuFilter from "../elements/OurMenuFilter";
 
 const Buttons = [
-  { icon: "flaticon-fast-food", title: "ALL" },
-  { icon: "flaticon-cocktail", title: "COLD DRINK" },
-  { icon: "flaticon-pizza-slice", title: "PIZZA" },
-  { icon: "flaticon-salad", title: "SALAD" },
-  { icon: "flaticon-cupcake", title: "SWEETS" },
-  { icon: "flaticon-chili-pepper", title: "SPICY" },
-  { icon: "flaticon-hamburger-1", title: "BURGER" },
+  // { icon: "flaticon-fast-food", title: "ALL" },
+  { icon: "flaticon-cocktail", title: "مشروبات باردة" },
+  { icon: "flaticon-pizza-slice", title: "بيتزا" },
+  { icon: "flaticon-salad", title: "السلطات" },
+  { icon: "flaticon-cupcake", title: "الاطباق الرئيسية" },
+  { icon: "flaticon-chili-pepper", title: "الباستا والريزو" },
+  { icon: "flaticon-hamburger-1", title: "البرجر" },
 ];
 
 interface MenuFile {

@@ -23,7 +23,7 @@ const Home = () => {
       <section className="content-inner bg-white section-wrapper-2 overflow-hidden">
         <div className="container">
           <div className="section-head text-center">
-            <h2 className="title wow text-center flipInX">Special Menu</h2>
+            <h2 className="title wow text-center flipInX"> المينيو</h2>
           </div>
           <HomeSpacialMenu />
         </div>
@@ -37,7 +37,7 @@ const Home = () => {
       <section className="content-inner-1 section-wrapper-3 overflow-hidden">
         <div className="container">
           <div className="section-head text-center">
-            <h2 className="title wow flipInX text-center">Today's Menu</h2>
+            <h2 className="title wow flipInX text-center">مينيو اليوم</h2>
           </div>
 
           <HomeImageBox />
@@ -48,7 +48,7 @@ const Home = () => {
       <section className="content-inner-1 bg-white overflow-hidden pt-sm-0">
         <div className="container">
           <div className="section-head text-center">
-            <h2 className="title wow text-center flipInX">From Our Menu</h2>
+            <h2 className="title wow text-center flipInX">بعض اصناف باب النيل</h2>
           </div>
           <MenuSlider />
         </div>
@@ -63,33 +63,14 @@ const Home = () => {
       >
         <div className="container">
           <div className="section-head text-center">
-            <h2 className="title text-white wow flipInX">Reservation</h2>
+            <h2 className="title text-white wow flipInX">الحجز</h2>
             <Reservation />
           </div>
         </div>
       </section>
-      <section className="content-inner-1 section-wrapper-2 right overflow-hidden">
-        <div className="container">
-          <div className="section-head text-center">
-            <h2 className="title wow flipInX">Customer's Comment</h2>
-          </div>
-          <Testymonial />
-        </div>
-        <img
-          className="bg1 dz-move-down"
-          src={IMAGES.background_pic2}
-          alt="/"
-        />
-      </section>
+
+
       <section className="content-inner-1 overflow-hidden bg-light">
-        <div className="container">
-          <div className="section-head text-center">
-            <h2 className="title wow flipInX">Master Chefs</h2>
-          </div>
-        </div>
-        <TeamCarosel />
-      </section>
-      <section className="content-inner-1 overflow-hidden">
         <div className="container">
           <div className="section-head text-center">
             <h2 className="title wow flipInX">News & blog</h2>

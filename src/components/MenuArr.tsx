@@ -8,7 +8,7 @@ export const MenuArr = [
   {
     menu: "القائمة",
     className: "has-mega-menu",
-    to: "/our-menu-5",
+    to: "/our-menu-1",
   },
   {
     menu: "من نحن",

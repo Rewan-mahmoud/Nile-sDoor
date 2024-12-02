@@ -23,7 +23,7 @@ const Reservation = () => {
               required
               type="text"
               className="form-control"
-              placeholder="Your Name"
+              placeholder="الاسم"
             />
           </div>
         </div>
@@ -37,7 +37,7 @@ const Reservation = () => {
               required
               type="text"
               className="form-control dz-number"
-              placeholder="Phone Number"
+              placeholder=" رقم الهاتف"
             />
           </div>
         </div>
@@ -51,7 +51,7 @@ const Reservation = () => {
               required
               type="text"
               className="form-control"
-              placeholder="Your Email"
+              placeholder=" البريد الالكتروني"
             />
           </div>
         </div>
@@ -62,9 +62,10 @@ const Reservation = () => {
             </div>
             <SelectPicker
               className="form-select default-select select-option-rsuite"
-              defaultValue={"Number Of People"}
+              defaultValue={"عدد الاشخاص"}
               data={data}
               searchable={false}
+            
             />
           </div>
         </div>
@@ -78,7 +79,7 @@ const Reservation = () => {
               type="text"
               className="form-control"
               id="datePickerOnly"
-              placeholder="Date"
+              placeholder="اليوم"
             />
           </div>
         </div>
@@ -92,7 +93,7 @@ const Reservation = () => {
               type="text"
               className="form-control"
               id="timePickerOnly"
-              placeholder="Time"
+              placeholder="الوقت"
             />
           </div>
         </div>
@@ -103,7 +104,7 @@ const Reservation = () => {
             value="submit"
             className="btn btn-lg btn-white btn-hover-1"
           >
-            <span>Book a Table</span>
+            <span>اححز طاولة</span>
           </button>
         </div>
       </div>
