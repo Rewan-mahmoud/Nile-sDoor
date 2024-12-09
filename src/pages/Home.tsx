@@ -2,8 +2,6 @@ import { useContext, useEffect, useMemo } from "react";
 import MainBanner from "../components/MainBanner";
 import MenuSlider from "../components/MenuSlider";
 import OurBlog from "../components/OurBlog";
-import TeamCarosel from "../components/TeamCarosel";
-import Testymonial from "../components/Testymonial";
 import { IMAGES } from "../constent/theme";
 import { Context } from "../context/AppContext";
 import HomeImageBox from "../elements/HomeImageBox";
@@ -48,7 +46,9 @@ const Home = () => {
       <section className="content-inner-1 bg-white overflow-hidden pt-sm-0">
         <div className="container">
           <div className="section-head text-center">
-            <h2 className="title wow text-center flipInX">بعض اصناف باب النيل</h2>
+            <h2 className="title wow text-center flipInX">
+              بعض اصناف باب النيل
+            </h2>
           </div>
           <MenuSlider />
         </div>
@@ -69,15 +69,6 @@ const Home = () => {
         </div>
       </section>
 
-
-      <section className="content-inner-1 overflow-hidden bg-light">
-        <div className="container">
-          <div className="section-head text-center">
-            <h2 className="title wow flipInX">News & blog</h2>
-          </div>
-          <OurBlog />
-        </div>
-      </section>
       <div className="map-iframe style-1">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d244934.17139458598!2d75.27787773507539!3d25.125368923263647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1678086292169!5m2!1sen!2sin"

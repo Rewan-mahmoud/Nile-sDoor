@@ -158,12 +158,6 @@ function App() {
               <Route path="/service-detail" element={<ServiceDetail />} />
               <Route path="/our-menu-1" element={<MenuStyle1 />} />
               <Route path="/our-menu-5" element={<MenuStyle5 />} />
-              <Route path="/shop-style-1" element={<ShopStyle1 />} />
-              <Route path="/shop-style-2" element={<ShopStyle2 />} />
-              <Route path="/shop-cart" element={<ShopCart />} />
-              <Route path="/shop-wishlist" element={<ShopWishlist />} />
-              <Route path="/shop-checkout" element={<ShopCheckout />} />
-              <Route path="/product-detail" element={<ProductDetail />} />
               <Route path="/blog-grid-2" element={<BlogGrid2 />} />
               <Route path="/blog-grid-3" element={<BlogGrid3 />} />
               <Route

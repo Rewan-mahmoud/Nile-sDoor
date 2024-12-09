@@ -11,15 +11,6 @@ const Header2 = () => {
   const cartRef = useRef<HTMLLIElement[]>([]);
   const [scroll, setScroll] = useState<boolean>(false);
 
-  const cartButton = () => {
-    setCart(!cart);
-  };
-  const deletItems = (ind: number) => {
-    cartRef.current[ind].classList.add("cartListItems");
-    setTimeout(() => {
-      cartRef.current[ind].remove();
-    }, 500);
-  };
 
   const scrollHandler = () => {
     if (window.scrollY > 80) {

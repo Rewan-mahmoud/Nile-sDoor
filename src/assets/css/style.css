@@ -23945,7 +23945,7 @@ ul a.rsswidget:hover {
   transition: all 0.5s;
 }
 .dz-img-box.style-2::before {
-  top: -100%;
+  top: -114%;
   background-color: var(--primary);
   z-index: 0;
 }

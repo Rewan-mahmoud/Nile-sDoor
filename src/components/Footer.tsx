@@ -145,11 +145,7 @@ const Footer = () => {
                         <span>القائمة</span>
                       </Link>
                     </li>
-                    <li>
-                      <Link to="/blog-standard">
-                        <span>المدونة</span>
-                      </Link>
-                    </li>
+                  
                   </ul>
                 </div>
               </div>

@@ -447,49 +447,132 @@ export const ServicesArr = [
 
 export const MenuStyle1Arr = [
   {
-    title: "عصائر فريش", // Fresh Juices
+    title: "الشوربة", // Soup
     child: [
-      { categery: "برتقال", price: "28.0" },
-      { categery: "ليمون نعناع", price: "30.0" },
-      { categery: "بطيخ", price: "30.0" },
-      { categery: "فراولة", price: "30.0" },
-      { categery: "اناناس", price: "30.0" },
-      { categery: "مانجو", price: "30.0" },
-      { categery: "شمام بدون حليب", price: "30.0" },
-      { categery: "شمام بالحليب", price: "30.0" },
+      { categery: "شوربة السي فود", price: "34.0" },
+      { categery: "شوربة الدجاج الكريمي", price: "30.0" },
+      { categery: "شوربة العدس المصرية", price: "30.0" },
+      { categery: "شوربة باب النيل", price: "37.0" },
     ],
   },
   {
-    title: "مشروبات باردة", // Cold Drinks
+    title: "المقبلات الباردة", // Cold Appetizer
     child: [
-      { categery: "ايس سبيشال لاتيه", price: "30.0" },
-      { categery: "ايس امريكانو", price: "30.0" },
-      { categery: "ايس وايت موكا", price: "33.0" },
-      { categery: "ايس في 60", price: "33.0" },
-      { categery: "ايس لاتيه", price: "30.0" },
-      { categery: "ايس تي خوخ", price: "26.0" },
-      { categery: "كركدية باب النيل", price: "25.0" },
+      { categery: "بابا غنوج", price: "30.0" },
+      { categery: "ورق عنب", price: "33.0" },
+      { categery: "حمص", price: "30.0" },
+      { categery: "مقبلات باب النيل الباردة", price: "38.0" },
     ],
   },
   {
-    title: "ميلك شيك", // Milkshake
+    title: "السلطات ", // Cold Appetizer
     child: [
-      { categery: "ميلك شيك اوريو", price: "38.0" },
-      { categery: "ميلك شيك فراولة", price: "38.0" },
-      { categery: "ميلك شيك شوكولاتة", price: "38.0" },
-      { categery: "ميلك شيك باب النيل", price: "40.0" },
+      { categery: "سلطة السيزر مع خبز الباجيت ", price: "50.0" },
+      { categery: "سلطة السيزر مع الدجاج ", price: "59.0" },
+      { categery: "سلطة الكينوا", price: "46.0" },
+      { categery: "سلطة مصرية علي طريقة الشيف", price: "35.0" },
+      { categery: "سلطة باب النيل", price: "49.0" },
+    ],
+  },
+  {
+    title: "المقبلات الساخنة", // Hot Appetizer
+    child: [
+      { categery: " مشكل كرات الريزوتو", price: "46.0" },
+      { categery: "ديناميت جمبري", price: "49.0" },
+      { categery: "مقبلات ساخنة باب النيل", price: "49.0" },
+      { categery: "مكس الدجاج الساخن مع 3صوصات", price: "44.0" },
+      { categery: "مشكل السمبوسة", price: "30.0" },
+      { categery: "كبة مقلية ", price: "35.0" },
+      { categery: "ديناميت دجاج", price: "46.0" },
+      { categery: "بطاطس مقلية ", price: "20.0" },
+      { categery: "لوديد فرايز باب النيل", price: "24.0" },
+      { categery: "اصابع موتزاريلا", price: "35.0" },
     ],
   },
 ];
 
 export const MenuStyle1Arr2 = [
   {
+    title: "البيتزا", // Pizza
+    child: [
+      { categery: "بيتزا مارجريتا", price: "48.0" },
+      { categery: "بيتزا بيستو", price: "64.0" },
+      { categery: "بيتزا خضار", price: "50.0" },
+      { categery: "بيتزا باب النيل", price: "58.0" },
+      { categery: "بيتزا ترافيل", price: "62.0" },
+    ],
+  },
+  {
+    title: "السندويتشات", // Sandwiches
+    child: [
+      { categery: "برجر دجاج", price: "50.0" },
+      { categery: "برجر لحم", price: "55.0" },
+      { categery: "كلوب ساندويتش دجاج", price: "51.0" },
+      { categery: "ساندويتش فاهيتا دجاج", price: "45.0" },
+      { categery: "بروستيكيا مشكل على طريقة باب النيل", price: "40.0" },
+    ],
+  },
+  {
+    title: "الباستا والريزوتو", // Pasta and Risotto
+    child: [
+      { categery: "باستا أرابياتا", price: "55.0" },
+      { categery: "باستا الفريدو", price: "59.0" },
+      { categery: "باستا سي فود", price: "75.0" },
+      {
+        categery: "باستا نيلز بيستو مع قطع الدجاج المحمر و الطماطم المجففة",
+        price: "65.0",
+      },
+      { categery: "ريزوتو بالمشروم والترافل", price: "73.0" },
+      { categery: "مكرونة بالباشاميل باللحم المفروم", price: "55.0" },
+      { categery: "ريزوتو الدجاج والزعفران", price: "65.0" },
+      { categery: "ريزوتو بالجمبري و السلمون", price: "86.0" },
+    ],
+  },
+  {
+    title: "الأطباق المصرية", // Egyptian Dishes
+    child: [
+      { categery: "أوصال", price: "90.0" },
+      { categery: "كفتة لحم", price: "80.0" },
+      { categery: "شيش طاووق", price: "75.0" },
+      { categery: "كشري", price: "40.0" },
+    ],
+  },
+];
+export const mainDishes = [
+  {
+    subtitle: "الاطباق الرئيسية",
+    title: "الدجاج", // Chicken
+    child: [
+      { categery: "دجاج مشوي بصوص البيستو", price: "80" },
+      { categery: "دجاج رول مع جبنة الريكوتا الجمبري ", price: "90" },
+      { categery: "شرائح الدجاج المقلي على طريقة باب النيل", price: "80" },
+      { categery: "فاهيتا دجاج طبق", price: "79" },
+    ],
+  },
+  {
+    title: "اللحم", // Main Dishes
+    child: [
+      { categery: "فيليه اللحم مع 3 صوص", price: "125" },
+      { categery: "ستيك ميداليون", price: "120" },
+      { categery: "بيف تندر لون على طريقة باب النيل", price: "128" },
+    ],
+  },
+  {
+    title: "الأسماك وفواكه البحر", // Seafood
+    child: [
+      { categery: "سلمون مشوي يقدم مع صوص الليمون والبرتقال", price: "130" },
+      { categery: "تشكيلة البحر باب النيل", price: "170" },
+    ],
+  },
+];
+export const drinks = [
+  {
     title: "مشروبات ساخنة", // Hot Drinks
     child: [
       { categery: "اسبريسو", price: "22.0" },
       { categery: "دبل اسبريسو", price: "24.0" },
       { categery: "ميكاتو", price: "28.0" },
-      { categery: "كورنادو", price: "28.0" },
+      { categery: "كورتادو", price: "28.0" },
       { categery: "فلات وايت", price: "28.0" },
       { categery: "كافية لاتيه", price: "30.0" },
       { categery: "كابتشينو", price: "30.0" },
@@ -504,6 +587,73 @@ export const MenuStyle1Arr2 = [
       { categery: "شاي مغربي", price: "35.0" },
       { categery: "شاي أحمر", price: "16.0" },
       { categery: "شاي أخضر", price: "16.0" },
+      { categery: "دلة قهوة عربي", price: "45.0" },
+    ],
+  },
+
+  {
+    title: "مشروبات باردة", // Cold Drinks
+    child: [
+      { categery: "آيس سبانش لاتيه", price: "30.0" },
+      { categery: "آيس أمريكانو", price: "30.0" },
+      { categery: "آيس وايت موكا", price: "33.0" },
+      { categery: "آيس في 60", price: "33.0" },
+      { categery: "آيس لاتيه", price: "30.0" },
+      { categery: "آيس تي خوخ", price: "26.0" },
+      { categery: "كركديه باب النيل", price: "25.0" },
+    ],
+  },
+  {
+    title: "عصائر فريش",
+    child: [
+      { categery: "برتقال", price: "28.0" },
+      { categery: "ليمون نعناع", price: "30.0" },
+      { categery: "بطيخ", price: "30.0" },
+      { categery: "فراولة", price: "30.0" },
+      { categery: "أناناس", price: "30.0" },
+      { categery: "مانجو", price: "30.0" },
+      { categery: "شمام بدون حليب", price: "30.0" },
+      { categery: "شمام بالحليب", price: "30.0" },
+    ],
+  },
+  {
+    title: "مشروبات غازية", // Carbonated Drinks
+    child: [
+      { categery: "سيفن", price: "18.0" },
+      { categery: "سيفن سبرايت", price: "18.0" },
+      { categery: "ميرندا برتقال", price: "18.0" },
+      { categery: "مياه غازية", price: "18.0" },
+      { categery: "بيره هولستن", price: "30.0" },
+      { categery: "بيره هنستن", price: "24.0" },
+      { categery: "ريد بول سادة", price: "26.0" },
+      { categery: "ريد بول نكهات", price: "29.0" },
+      { categery: "مياة صغيرة", price: "14.0" },
+      { categery: "مياة كبيرة", price: "20.0" },
+      { categery: "بيبسي", price: "18.0" },
+      { categery: "بيبسي دايت ", price: "18.0" },
+    ],
+  },
+
+  {
+    title: "كوكتيلات", // Cocktails
+    child: [
+      { categery: "فريشكو كوكتيل", price: "35.0" },
+      { categery: "بينكولادا", price: "35.0" },
+      { categery: "Lait de Poule ليتيبول", price: "35.0" },
+      { categery: "لافينا", price: "35.0" },
+      { categery: "دلع البنات", price: "35.0" },
+      { categery: "أناناس مع برتقال", price: "35.0" },
+      { categery: "كوكتيل باب النيل", price: "38.0" },
+    ],
+  },
+
+  {
+    title: "ميلك شيك", // Milkshake
+    child: [
+      { categery: "ميلك شيك أوريو", price: "38.0" },
+      { categery: "ميلك شيك فراولة", price: "38.0" },
+      { categery: "ميلك شيك شوكولاتة", price: "38.0" },
+      { categery: "ميلك شيك باب النيل", price: "40.0" },
     ],
   },
   {
@@ -517,146 +667,7 @@ export const MenuStyle1Arr2 = [
       { categery: "موهيتو باب النيل", price: "45.0" },
     ],
   },
-  {
-    title: "كوكتيلات", // Cocktails
-    child: [
-      { categery: "فريشكو كوكتيل", price: "35.0" },
-      { categery: "بينكولادا", price: "35.0" },
-      { categery: "Lait de Poule ليتيبول", price: "35.0" },
-      { categery: "لافينا", price: "35.0" },
-      { categery: "دلع البنات", price: "35.0" },
-      { categery: "أناناس مع برتقال", price: "35.0" },
-      { categery: "كوكتيل باب النيل", price: "38.0" },
-    ],
-  },
-  {
-    title: "الشوربة", // Soup
-    child: [
-      { categery: "شربة السيفود", price: "34.0" },
-      { categery: "شربة الدجاج الكريمي", price: "30.0" },
-      { categery: "شربة العدس المصرية", price: "30.0" },
-      { categery: "شربة باب النيل", price: "37.0" },
-    ],
-  },
-  {
-    title: "المقبلات الباردة", // Cold Appetizer
-    child: [
-      { categery: "بابا غنوج", price: "30.0" },
-      { categery: "ورق عنب", price: "36.0" },
-      { categery: "حمص", price: "30.0" },
-      { categery: "مقبلات باب النيل الباردة", price: "38.0" },
-    ],
-  },
-  {
-    title: "المقبلات الساخنة", // Hot Appetizer
-    child: [
-      { categery: "مشكل كرات الارونشيني", price: "40.0" },
-      { categery: "ديناميت جمبري", price: "36.0" },
-      { categery: "بطاطس حارة", price: "35.0" },
-      { categery: "مقبلات ساخنة باب النيل", price: "38.0" },
-    ],
-  },
-  {
-    title: "البيتزا", // Pizza
-    child: [
-      { categery: "بيتزا مارغريتا", price: "48.0" },
-      { categery: "بيتزا روستو", price: "50.0" },
-      { categery: "بيتزا خضار", price: "52.0" },
-      { categery: "بيتزا باب النيل", price: "55.0" },
-    ],
-  },
-  {
-    title: "الأطباق الرئيسية", // Main Dishes
-    child: [
-      { categery: "سمك مشوي", price: "130.0" },
-      { categery: "تشكيلة بحرية", price: "170.0" },
-    ],
-  },
-  {
-    title: "اكلات مصرية", // Egyptian Dishes
-    child: [
-      { categery: "أوصال", price: "90.0" },
-      { categery: "كفته لحم", price: "80.0" },
-      { categery: "شيش طاووق", price: "75.0" },
-      { categery: "كشري", price: "40.0" },
-    ],
-  },
-  {
-    title: "السندويتشات", // Sandwiches
-    child: [
-      { categery: "برجر دجاج", price: "50.0" },
-      { categery: "برجر لحم", price: "55.0" },
-      { categery: "كلوب ساندويتش دجاج", price: "51.0" },
-      { categery: "ساندويتش فاهيتا دجاج", price: "45.0" },
-      { categery: "بروستيكيا مشكل على طريقة باب النيل", price: "40.0" },
-    ],
-  },
 ];
-// export const MenuStyle1Arr3 = [
-//   {
-//     title: "الشوربة", // Soup
-//     child: [
-//       { categery: "شربة السيفود", price: "34.0" },
-//       { categery: "شربة الدجاج الكريمي", price: "30.0" },
-//       { categery: "شربة العدس المصرية", price: "30.0" },
-//       { categery: "شربة باب النيل", price: "37.0" },
-//     ],
-//   },
-//   {
-//     title: "المقبلات الباردة", // Cold Appetizer
-//     child: [
-//       { categery: "بابا غنوج", price: "30.0" },
-//       { categery: "ورق عنب", price: "36.0" },
-//       { categery: "حمص", price: "30.0" },
-//       { categery: "مقبلات باب النيل الباردة", price: "38.0" },
-//     ],
-//   },
-//   {
-//     title: "المقبلات الساخنة", // Hot Appetizer
-//     child: [
-//       { categery: "مشكل كرات الارونشيني", price: "40.0" },
-//       { categery: "ديناميت جمبري", price: "36.0" },
-//       { categery: "بطاطس حارة", price: "35.0" },
-//       { categery: "مقبلات ساخنة باب النيل", price: "38.0" },
-//     ],
-//   },
-//   {
-//     title: "البيتزا", // Pizza
-//     child: [
-//       { categery: "بيتزا مارغريتا", price: "48.0" },
-//       { categery: "بيتزا روستو", price: "50.0" },
-//       { categery: "بيتزا خضار", price: "52.0" },
-//       { categery: "بيتزا باب النيل", price: "55.0" },
-//     ],
-//   },
-//   {
-//     title: "الأطباق الرئيسية", // Main Dishes
-//     child: [
-//       { categery: "سمك مشوي", price: "130.0" },
-//       { categery: "تشكيلة بحرية", price: "170.0" },
-//     ],
-//   },
-//   {
-//     title: "اكلات مصرية", // Egyptian Dishes
-//     child: [
-//       { categery: "أوصال", price: "90.0" },
-//       { categery: "كفته لحم", price: "80.0" },
-//       { categery: "شيش طاووق", price: "75.0" },
-//       { categery: "كشري", price: "40.0" },
-//     ],
-//   },
-//   {
-//     title: "السندويتشات", // Sandwiches
-//     child: [
-//       { categery: "برجر دجاج", price: "50.0" },
-//       { categery: "برجر لحم", price: "55.0" },
-//       { categery: "كلوب ساندويتش دجاج", price: "51.0" },
-//       { categery: "ساندويتش فاهيتا دجاج", price: "45.0" },
-//       { categery: "بروستيكيا مشكل على طريقة باب النيل", price: "40.0" },
-//     ],
-//   },
-// ];
-
 export const MenuStyle2Arr = [
   {
     categery: "ALL PIZZA SPICY",
