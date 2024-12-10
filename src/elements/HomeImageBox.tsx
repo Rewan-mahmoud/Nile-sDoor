@@ -41,7 +41,7 @@ const HomeImageBox = () => {
           </div>
         ))}
         <div className="col-12 text-center m-t10">
-          <Link to="/our-menu-5" className="btn btn-md btn-primary btn-hover-1">
+          <Link to="/our-menu-1" className="btn btn-md btn-primary btn-hover-1">
             <span>جميع الاطباق</span>
           </Link>
         </div>
