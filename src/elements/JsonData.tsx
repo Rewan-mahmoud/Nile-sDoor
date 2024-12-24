@@ -531,12 +531,87 @@ export const MenuStyle1Arr2 = [
   {
     title: "الأطباق المصرية", // Egyptian Dishes
     child: [
-      { categery: "أوصال", price: "90.0" },
+      { categery: "اوصال(لحم)", price: "90.0" },
       { categery: "كفتة لحم", price: "80.0" },
-      { categery: "شيش طاووق", price: "75.0" },
-      { categery: "كشري", price: "40.0" },
+      { categery: "(اوصال دجاج)شيش طاووق", price: "75.0" },
+      { categery: "ريش", price: "90.0" },
+      { categery: "كباب دجاج", price: "75.0" },
+      { categery: "موزه في الفرن", price: "88.0" },
+      { categery: "مشاوي باب النيل", price: "110.0" },
+      { categery: "طبلية مشاوي باب النيل ", price: "170.0" },
     ],
   },
+  {
+    title: "الليلة المصرية",
+    child: [
+      { categery: "دجاج مشوي على الفحم على الطريقة المصرية", price: "55.0" },
+      { categery: "طاجن مشكل خضار مع اللحم", price: "65.0" },
+      { categery: "طاجن بامية مع اللحم", price: "65.0" },
+      { categery: "طاجن بطاطس مع اللحم", price: "65.0" },
+      { categery: "حواوشي", price: "40.0" },
+      { categery: "ملوخية سادة", price: "25.0" },
+      { categery: "أرز بالشعرية", price: "17.0" },
+    ],
+  },
+  {
+    title: "الليلة الشامية",
+    child: [
+      { categery: "طاجن لحم بالبرقوق", price: "70.0" },
+      { categery: "طاجن دجاج بالليمون", price: "50.0" },
+      { categery: "كسكسي مع لحم الغنم", price: "65.0" },
+      { categery: "حريرة", price: "28.0" },
+      { categery: "سلطة مطبوخة", price: "35.0" },
+      { categery: "سلطة الخيار والطماطم ", price: "35.0" },
+      { categery: "سلطة المكرونة", price: "36.0" },
+    ],
+  },
+  {
+    title: "الحلو",
+    child: [
+      { categery: "أم علي", price: "25.0" },
+      { categery: "أرز بلبن", price: "17.0" },
+      { categery: "بولة ايس كريم", price: "6.0" },
+      { categery: "بولاتين ايس كريم", price: "12.0" },
+      { categery: "بولات ايس كريم 3", price: "18.0" },
+      { categery: "اكلير لوتس ", price: "35.0" },
+      { categery: "اكلير شوكولاتة", price: "35.0" },
+      { categery: "موس شوكولاتة", price: "38.0" },
+      { categery: "مثلث فراولة ", price: "40.0" },
+      { categery: " ق سبونش فراولة", price: "35.0" },
+      { categery: "ملفاي سكر ", price: "35.0" },
+      { categery: "تارت بستاشيو", price: "38.0" },
+      { categery: "تارت سنكرز", price: "38.0" },
+      { categery: "فاكهة", price: "35.0" },
+      { categery: "كراميل", price: "38.0" },
+      { categery: "روشية", price: "38.0" },
+      { categery: " سان سبستيان", price: "35.0" },
+      { categery: "كاروت كيك", price: "35.0" },
+      { categery: "شيز كيك", price: "38.0" },
+    ],
+  },
+  {
+    title: "العروض  من 7 صباحاً إلى 12ظهراً ",
+    child: [
+      { categery: "طبلية فطور باب النيل ", price: "49.0" },
+      { categery: "طبلية فطور باب النيل مع بيضة ومشروب ساخن", price: "65.0" },
+      { categery: "فطور شرقي", price: "49.0" },
+      { categery: "عرض فطور شرقي مع شيشة ومشروب ساخن", price: "79.0" },
+      { categery: "عرض بيك الفطار (شيشة + مشروب + حل) )", price: "69.0" },
+    ],
+  }
+  ,
+  {
+    title: "العروض من 3 صباحاً إلى 8 صباحاً ",
+    child: [
+      { categery: "عرض باب النيل ( شيشة + مشروب + حل )", price: "69.0" },
+    ],
+  },
+  {
+    title: " العروض من 12 ظهرا إلي 5 مساءاً ",
+    child: [
+      { categery: "عرض الغداء ( سندويتش + مشروب + شيشة)", price: "79.0" },
+    ],
+  }
 ];
 export const mainDishes = [
   {
@@ -588,6 +663,8 @@ export const drinks = [
       { categery: "شاي أحمر", price: "16.0" },
       { categery: "شاي أخضر", price: "16.0" },
       { categery: "دلة قهوة عربي", price: "45.0" },
+      { categery: "كوفي مع البونبون", price: "30.0" },
+      { categery: "افوكادو كوفي", price: "33.0" },
     ],
   },
 
@@ -620,10 +697,10 @@ export const drinks = [
     title: "مشروبات غازية", // Carbonated Drinks
     child: [
       { categery: "سيفن", price: "18.0" },
-      { categery: "سيفن سبرايت", price: "18.0" },
+      { categery: "سيفن دايت", price: "18.0" },
       { categery: "ميرندا برتقال", price: "18.0" },
       { categery: "مياه غازية", price: "18.0" },
-      { categery: "بيره هولستن", price: "30.0" },
+      { categery: "بيره هينكن", price: "30.0" },
       { categery: "بيره هنستن", price: "24.0" },
       { categery: "ريد بول سادة", price: "26.0" },
       { categery: "ريد بول نكهات", price: "29.0" },
